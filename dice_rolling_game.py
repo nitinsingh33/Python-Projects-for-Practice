@@ -12,7 +12,7 @@
 
 import random
 
-while = True:
+while True:
     choice = input("Roll the dice? (y/n): ").lower()
     if choice == 'y':
         die1 = random.randint(1, 6)
